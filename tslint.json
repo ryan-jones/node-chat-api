@@ -1,5 +1,9 @@
 {
   "defaultSeverity": "error",
   "extends": ["tslint:recommended"],
-  "quotemark": [true, "single", "jsx-double"]
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "trailing-comma": false,
+    "object-literal-sort-keys": false
+  }
 }
